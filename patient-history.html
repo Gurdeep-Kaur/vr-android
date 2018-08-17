@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="style.css"  media="screen,projection"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title> Pateint History Screen </title>
+    </head>
+
+    <body id="body1">
+        <header>
+            <nav id="nav1" style="background-color: #03a9f4;">
+              <div id="nav-div" class="nav-wrapper">
+                <a href="patient-list.html" class="waves-effect left" id="savebtn">
+                    <i class="material-icons black-text">arrow_back</i>
+                </a>
+               <a href="#!" id="logo1" class="brand-logo black-text">Patient History</a>
+              </div>
+            </nav>
+        </header>
+
+        <main id="main1">
+          <ul id="ul1" class="collection">
+            <li class="list-item collection-item">           
+                <p>
+                    Patient : Patient 1
+                </p>
+            </li>
+
+            <li class="list-item collection-item">           
+                <p onclick="window.location.href='session-details.html'">
+                    Session  : Session 1
+                    <br>
+                    Duration : 10 min
+                </p>
+            </li>
+    
+            <li class="list-item collection-item">           
+                <p onclick="window.location.href='session-details.html'">
+                    Session  : Session 2
+                    <br>
+                    Duration : 20 min
+                </p>
+            </li>
+          </ul>
+        </main>
+
+        <footer class="page-footer" style="background-color: #f57c00;">
+            <div class="row">
+                <div class="col s6 center-align">
+                    <a href="edit.html" class="waves-effect black-text">Edit Patient Details</a>
+                </div>
+                <div class="col s6 center-align">
+                    <a href="add-session.html" class="waves-effect black-text">Add Session</a>
+                </div>
+            </div>
+        </footer>
+
+        <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+
+    </body>
+  </html>
+        

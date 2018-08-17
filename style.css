@@ -1,0 +1,68 @@
+head, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#logo {
+    font-size: 20px;
+    padding: 0 10px;
+    
+}
+
+#logo1 {
+    font-size: 20px;
+    padding: 0 10px;
+    position: relative;
+    left: 80px;
+    
+}
+
+#image {
+    padding: 60px 40px;
+}
+
+#loginbtn {
+    background-color: #f57c00;
+}
+
+#ul1 {
+    width: 100%; 
+    position: fixed;
+    border: none;
+    outline: none; 
+}
+
+
+
+.title {
+    font-size: 18px; 
+    position: relative; 
+    top: 12px;
+    color: black;
+}
+
+#icon1 {
+    font-size: 24px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+#addbtn {
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px;
+    background-color: #f57c00;
+}
+
+#savebtn {
+    padding: 0 10px;
+}
+
+#body1 {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+#main1 {
+   flex: 1 0 auto;
+}

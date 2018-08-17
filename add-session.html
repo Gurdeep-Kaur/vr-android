@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="style.css"  media="screen,projection"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title> Add Session Screen </title>
+    </head>
+
+    <body>
+        <nav id="nav1" style="background-color: #03a9f4;">
+            <div id="nav-div" class="nav-wrapper">
+                <a href="patient-history.html" class="waves-effect left" id="savebtn">
+                    <i class="material-icons black-text">close</i>
+                </a>
+                <a href="#!" id="logo1" class="brand-logo black-text">Add Session</a>
+                <a href="#" class="waves-effect right" id="savebtn">
+                    <i class="material-icons black-text">done</i>
+                </a>
+            </div>
+        </nav>
+
+        <div class="row" style="padding: 10px 30px;">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="sdate" type="text" class="datepicker">
+                <label for="sdate">Session Date</label>
+              </div>
+              <div class="input-field col s12">
+                <input id="sno" type="text" class="validate">
+                <label for="sno">Session Number</label>
+              </div>
+              <div class="input-field col s12">
+                <select>
+                  <option value="" disabled selected>Choose your option</option> 
+                  <option value="1">5 min</option>
+                  <option value="2">10 min</option>
+                  <option value="3">15 min</option>
+                  <option value="3">20 min</option>
+                  <option value="3">30 min</option>
+                </select>
+                <label>Session Duration</label>
+              </div>
+              <div class="col s12">
+                <span> Pescribed Exercises</span>
+                <p>
+                    <label>
+                        <input type="checkbox" class="filled-in blue"/>
+                        <span>Game 1</span>
+                        <p style="padding-left: 35px;">
+                          <label>
+                            <input type="checkbox" class="filled-in blue"/>
+                            <span>Level 1</span>
+                          </label>
+                          <br>
+                          <label>
+                            <input type="checkbox" class="filled-in blue"/>
+                            <span>Level 2</span>
+                          </label>
+                          <br>
+                          <label>
+                            <input type="checkbox" class="filled-in blue"/>
+                            <span>Level 3</span>
+                          </label>
+                        </p>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" class="filled-in blue"/>
+                        <span>Game 2</span>
+                        <p style="padding-left: 35px;">
+                            <label>
+                                <input type="checkbox" class="filled-in blue"/>
+                                <span>Level 1</span>
+                            </label>
+                            <br>
+                            <label>
+                                <input type="checkbox" class="filled-in blue"/>
+                                <span>Level 2</span>
+                            </label>
+                            <br>
+                            <label>
+                                <input type="checkbox" class="filled-in blue"/>
+                                <span>Level 3</span>
+                            </label>
+                        </p>
+                    </label>
+                </p>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+        <script type="text/javascript" src="init.js"></script>
+    </body>
+  </html>
+        
